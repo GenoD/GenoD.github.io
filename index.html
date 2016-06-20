@@ -11,8 +11,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
     <!-- Latest compiled JavaScript -->
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script type='text/JavaScript' src="script.js"></script>
     <style>
     ul {
+        position: fixed;
+        top: 0;
+        width: 100%;
         list-style-type: none;
         margin: 0;
         padding: 0;
@@ -33,20 +37,25 @@
     }
     
     li a:hover {
-        background-color: #111;
+        background-color: #1abc9c;
+        color: black;
     }
     </style>
 </head>
 
 <body>
-    <ul>
-        <li><a href="default.asp">Home</a></li>
-        <li><a href="news.asp">News</a></li>
-        <li><a href="contact.asp">Contact</a></li>
-        <li><a href="about.asp">About</a></li>
-    </ul>
-    <h1>Hello to my world</h1>
-    <p>Heres to a new beginning</p>
+    <nav id="nav">
+        <ul>
+            <li><a href="Resume2016.pdf">Resume</a></li>
+            <li><a href="news.asp">Contact</a></li>
+            <li><a href="contact.asp">Projects</a></li>
+            <li><a href="about.asp">Home</a></li>
+        </ul>
+    </nav>
+    <div style="padding:20px;margin-top:30px;background-color:#1abc9c;height:1500px;">
+        <h1>Hello to my world</h1>
+        <p>Heres to a new beginning</p>
+    </div>
 </body>
 
 </html>

@@ -12,6 +12,15 @@ ul {
 li {
     float: right;
 }
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+
+h1 {
+    font-family: Oswald;
+}
+
+a {
+    color: inherit;
+}
 
 li a {
     display: block;
@@ -31,8 +40,10 @@ header {
     color: #fff;
     background-image: url(img/testimage3.jpg);
     background-attachment: fixed;
-    height:100%;
-    width:100%;
+    background-size: contain;
+    max-width: 100%;
+    height: auto;
+    width: auto;
     overflow: hidden;
 }
 
@@ -41,8 +52,6 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 1150px 135px;
-    background-size: contain;
     height: 100%;
     width: 100%;
     margin-top: 50px;

@@ -8,10 +8,21 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js" type="text/javascript"></script>
     <!-- Latest compiled JavaScript -->
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <script type='text/JavaScript' src="script.js"></script>
+    <script src="jquery.localscroll.js" type="text/javascript"></script>
+    <script src="jquery.scrollTo.js" type="text/javascript"></script>
+    <script>
+    $(document).ready(function() {
+
+        $.localScroll({
+        	duration: 800;
+        });
+
+    });
+    </script>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
@@ -19,20 +30,29 @@
     <nav id="nav">
         <ul>
             <li><a href="Resume2016.pdf">Resume</a></li>
-            <li><a href="news.asp">Contact</a></li>
-            <li><a href="contact.asp">Projects</a></li>
-            <li><a href="about.asp">Home</a></li>
+            <li><a href="#Contact">Contact</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#TopOfPage">Home</a></li>
         </ul>
     </nav>
-
     <header>
-    	<div class="steadyColumn">
-    	</div>
+        <div class="steadyColumn">
+        </div>
     </header>
-
-    <div style="padding:20px;background-color:#1abc9c;height:1500px;">
-        <h1>Hello to my world</h1>
+    <div style="padding:20px;background-color:#fff;height:1500px;">
+        <a name="Intro">
+            <h1>Hello to my world</h1></a>
         <p>Heres to a new beginning</p>
+    </div>
+    <div style="padding:20px;background-color:#fff;height:1500px;">
+        <a name="Projects">
+            <h1>Section 2</h1></a>
+        <p>Projects</p>
+    </div>
+    <div style="padding:20px;background-color:#fff;height:1500px;">
+        <a name="Contact">
+            <h1>Section 3</h1></a>
+        <p>Contact</p>
     </div>
 </body>
 

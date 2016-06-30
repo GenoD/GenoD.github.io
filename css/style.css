@@ -1,4 +1,9 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+
 ul {
+    font-family: Montserrat;
     position: fixed;
     top: 0;
     width: 100%;
@@ -12,10 +17,10 @@ ul {
 li {
     float: right;
 }
-@import url(https://fonts.googleapis.com/css?family=Oswald);
+
 
 h1 {
-    font-family: Oswald;
+    font-family: Montserrat;
 }
 
 a {
@@ -36,6 +41,7 @@ li a:hover {
 }
 
 div h1 {
+    font-family: Montserrat;
     text-align: center;
     font-size: 100px;
 }
@@ -43,7 +49,7 @@ div h1 {
 header {
     text-align: center;
     color: #fff;
-    background-image: url(img/testimage.jpg);
+    background-image: url(../img/testimage.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -53,6 +59,23 @@ header {
     overflow: hidden;
 }
 
+.Intro h1 {
+    font-size: 75px;
+    text-align: left;
+    padding-top: 200px;
+    padding-left: 50px;
+}
+
+.Intro p {
+    font-size: 20px;
+    text-align: left;
+    padding-left: 50px;
+    max-width: 500px;
+}
+
+.row {
+    padding: 100px;
+}
 
 .steadyColumn {
     background-position: center;
@@ -68,4 +91,16 @@ header {
     text-align: center;
     font-size: 50px;
     overflow: hidden;
+}
+
+.subsection:nth-child(odd){
+    padding: 20px;
+    background-color: #FFF;
+    height: 1500px;
+}
+
+.subsection:nth-child(even){
+    padding: 20px;
+    background-color: #1abc9c;
+    height: 1500px;
 }

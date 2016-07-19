@@ -7,8 +7,40 @@
     overflow: hidden;
 }
 
+.nav.navbar-nav li a:hover{
+    color: #1abc9c;
+}
+
 #TopOfPage {
     /*background-image: url(../img/black.png);*/
     background: url(../img/black.png);
     /*background-size: cover;*/
+}
+
+@media screen and (min-width: 48em) {
+    #introP {
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 47em) {
+    #introP {
+        text-align: center;
+    }
+}
+
+hr.style-four {
+    height: 12px;
+    border: 0;
+    margin: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
+
+#introP h1{
+    color: #1abc9c;
+}
+
+.label {
+    background-color: #1abc9c;
 }

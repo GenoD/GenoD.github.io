@@ -27,6 +27,7 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#TopOfPage">Home</a></li>
                     <li><a href="#Experience">Experience</a></li>
+                    <li><a href="#Projects">Projects</a></li>
                     <li><a href="#Contact">Contact</a></li>
                     <li><a href="Resume2016.pdf">Resume</a></li>
                 </ul>
@@ -37,32 +38,48 @@
     </nav>
     <section class="clearfix" id="TopOfPage" style="padding-top: 50px">
         <div class="container-fluid">
-            <div id="headDiv" class="row" style="height: 700px;">
-                <div class="col-sm-4 col-sm-offset-4 text-center fadeInDown animated">
+            <div id="headDiv" class="row" style="height: 900px;">
+                <!-- <div class="col-sm-4"><img class="img-responsive" src="img/UCI_logo.png" style="padding-top: 100px;"></div> -->
+                <div id="introP" class="col-sm-8 col-sm-offset-2 text-left fadeInDown animated" style="padding-top: 100px; padding-left: 20px; padding-right: 20px;">
                     <h1>Geno Diaz</h1>
                     <p class="lead">I am a web developer from Eastvale, California with a passion for creating tangible products for end users.</p>
                 </div>
             </div>
         </div>
     </section>
+    <hr class="style-four">
     <section class="subsection" id="Experience" style="height: 700px; padding-top: 100px; background-color: #FFF;">
         <div class="container-fluid">
             <div class="row">
-                <div class="Experience col-sm-3 col-sm-offset-3 text-center">
+                <div class="Experience col-sm-4 col-sm-offset-2 text-center">
                     <img class="img-responsive" src="img/AppliedMedicalLogo.png">
                 </div>
-                <div class="experienceContainer col-sm-3  text-center">
-                    <div class="experienceTitle">
-                        <b1>Summer 2015</b1>
+                <div class="experienceContainer col-sm-4">
+                    <div class="row text-center">
+                        <div class="experienceTitle">
+                            <h1>Summer 2015</h1>
+                            <p class="experienceDesciption">
+                                Created a web applicaiton module to parse legacy data and reformat for new company software.
+                            </p>
+                        </div>
+                        <div class="technologies container-fluid">
+                            <div class="row">
+                                <div class="col-xs-3 col-xs-offset-2">
+                                    <p><span class="label label-default">Javascript</span></p>
+                                </div>
+                                <div class="col-xs-2">
+                                    <p><span class="label label-default">HTML</span></p>
+                                </div>
+                                <div class="col-xs-2"><p><span class="label label-default">CSS</span></p></div>
+                            </div>
+                        </div>
                     </div>
-                    <p class="experienceDesciption">
-                        <br> Created a web applicaiton module to work with company software.
-                    </p>
                 </div>
             </div>
         </div>
     </section>
-    <section class="subsection" id="Projects" style="    background-color: #1abc9c;">
+    <hr class="style-four">
+    <section class="subsection" id="Projects" style="    background-color: #FFF; text-align: center;">
         <div class="container-fluid">
             <div class="row">
                 <h1>Projects</h1></a>
@@ -70,11 +87,26 @@
             </div>
         </div>
     </section>
-    <section class="subsection" id="Contact" style="background-color: #FFF;">
+    <hr class="style-four">
+    <section class="subsection" id="Contact" style="background-color: #FFF; text-align: center;">
         <div class="container-fluid">
             <div class="row">
                 <h1>Contact</h1></a>
-                <p></p>
+                <div class="span8" id="contact">
+                    <form action="mailer.php" id="contact-form" method="post" name="contact-form">
+                        <div class="buffer-bottom">
+                            <input name="name" placeholder="Name" required="" id="field1" type="text">
+                            <input name="email" placeholder="Email" required="" type="email">
+                            <input name="phone" placeholder="Phone" required="" type="text">
+                        </div>
+                        <div class="buffer-bottom">
+                            <textarea class="message" name="message" placeholder="Message" required="" rows="6"></textarea>
+                        </div><span id="submit-response"></span>
+                        <div class="pull-right">
+                            <input class="button" value="send" type="submit">
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
     </section>

@@ -1,106 +1,14 @@
-@import url(https://fonts.googleapis.com/css?family=Oswald);
-@import url(https://fonts.googleapis.com/css?family=Montserrat);
-
-
-ul {
-    font-family: Montserrat;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-
-li {
-    float: right;
-}
-
-
-h1 {
-    font-family: Montserrat;
-}
-
-a {
-    color: inherit;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover {
-    background-color: #1abc9c;
-    color: black;
-}
-
-div h1 {
-    font-family: Montserrat;
-    text-align: center;
-    font-size: 100px;
-}
-
-header {
+#headDiv {
     text-align: center;
     color: #fff;
-    background-image: url(../img/testimage.jpg);
     background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    max-width: 100%;
-    height: auto;
-    width: auto;
-    overflow: hidden;
-}
-
-.Intro h1 {
-    font-size: 75px;
-    text-align: left;
-    padding-top: 200px;
-    padding-left: 50px;
-}
-
-.Intro p {
-    font-size: 20px;
-    text-align: left;
-    padding-left: 50px;
-    max-width: 500px;
-}
-
-.row {
-    padding: 100px;
-}
-
-.steadyColumn {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 100%;
     width: 100%;
-    margin-top: 50px;
-    margin-top: 4%;
-    padding: 245px;
-    padding: 20%;
-    color: transparent;
-    text-align: center;
-    font-size: 50px;
+    max-height: 100%;
     overflow: hidden;
 }
 
-.subsection:nth-child(odd){
-    padding: 20px;
-    background-color: #FFF;
-    height: 1500px;
-}
-
-.subsection:nth-child(even){
-    padding: 20px;
-    background-color: #1abc9c;
-    height: 1500px;
+#TopOfPage {
+    /*background-image: url(../img/black.png);*/
+    background: url(../img/black.png);
+    background-size: cover;
 }

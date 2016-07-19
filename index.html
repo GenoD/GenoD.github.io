@@ -4,68 +4,102 @@
 <head>
     <title>Geno Diaz Portfolio</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-    <!-- Latest compiled JavaScript -->
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <script type='text/JavaScript' src="script.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- <link rel="stylesheet" media="screen and (min-width: 1400px)" href="css/large.css">
+    <link rel="stylesheet" media="screen and (min-width: 0px)" href="css/small.css"> -->
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/animate.css">
 </head>
 
 <body>
-    <nav class="navbar-fixed-top">
-        <ul>
-            <li><a href="Resume2016.pdf">Resume</a></li>
+    <!-- <nav class="navbar-fixed-top">
+        <ul class="nav-pills nav-justified">
+            <li class="col-xs-2"><a href="Resume2016.pdf">Resume</a></li>
             <li class="scroll"><a href="#Contact">Contact</a></li>
             <li class="scroll"><a href="#Projects">Projects</a></li>
             <li class="scroll"><a href="#Experience">Experience</a></li>
             <li class="scroll"><a href="#TopOfPage">Home</a></li>
         </ul>
-    </nav>
-    <section id="TopOfPage">
-        <header style="height:1000px;">
-            <div class="Intro fadeInDown animated"><h1>Geno Diaz</h1>
-            	<p>I am a web developer from Eastvale, California with a passion for creating tangible products for end users.</p>
+    </nav> -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#TopOfPage">GD</a>
             </div>
-        </header>
-    </section>
-    <section class="subsection" id="Experience">
-        <div>
-            <div class="row">
-                <div class="Experience">
-                    <img src="img/AppliedMedicalLogo.png" height="101" width="320">
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#Contact">Contact</a></li>
+                    <li><a href="#Experience">Experience</a></li>
+                    <li><a href="#TopOfPage">Home</a></li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+        <!--/.container-fluid -->
+    </nav>
+
+    <section class="clearfix" id="TopOfPage" style="padding-top: 50px">
+        <div class="container-fluid">
+            <div id="headDiv" class="row" style="height: 700px;">
+                <div class="col-sm-4 col-sm-offset-4 text-center fadeInDown animated">
+                    <h1>Geno Diaz</h1>
+                    <p class="lead">I am a web developer from Eastvale, California with a passion for creating tangible products for end users.</p>
                 </div>
-                <div class="experienceContainer">
+            </div>
+            <!-- <header style="height:1000px">
+            <div class="Intro fadeInDown animated">
+                <h1>Geno Diaz</h1>
+                <p>I am a web developer from Eastvale, California with a passion for creating tangible products for end users.</p>
+            </div>
+        </header> -->
+        </div>
+    </section>
+    <section class="subsection" id="Experience" style="height: 700px; padding-top: 100px; background-color: #1abc9c;">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="Experience col-sm-3 col-sm-offset-3 text-center">
+                    <img class="img-responsive" src="img/AppliedMedicalLogo.png">
+                </div>
+                <div class="experienceContainer col-sm-3  text-center">
                     <div class="experienceTitle">
                         <b1>Summer 2015</b1>
                     </div>
-                    <!-- Description -->
                     <p class="experienceDesciption">
-                        <br>
-                        <br>Created web applicaiton module
-                        <br>
-                        <br>
+                        <br> Created a web applicaiton module to work with company software.
                     </p>
                 </div>
             </div>
         </div>
     </section>
-    <section class="subsection" id="Projects">
-        <div>
-            <h1>Projects</h1></a>
-            <p></p>
+    <section class="subsection" id="Projects" style="    background-color: #1abc9c;">
+        <div class="container-fluid">
+            <div class="row">
+                <h1>Projects</h1></a>
+                <p></p>
+            </div>
         </div>
     </section>
-    <section class="subsection" id="Contact">
-        <div>
-            <h1>Contact</h1></a>
-            <p></p>
+    <section class="subsection" id="Contact" style="background-color: #FFF;">
+        <div class="container-fluid">
+            <div class="row">
+                <h1>Contact</h1></a>
+                <p></p>
+            </div>
         </div>
     </section>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script type='text/JavaScript' src="script.js"></script>
 </body>
 
 </html>

@@ -1,3 +1,7 @@
+body {
+    font-family: futura;
+}
+
 #headDiv {
     text-align: center;
     color: #fff;
@@ -43,4 +47,28 @@ hr.style-four {
 
 .label {
     background-color: #1abc9c;
+}
+
+input {
+padding:12px 24px;
+    font-size:15px;
+    font-family: futura;
+    color:#000;
+    margin:0 20px 10px 0;
+    border:none;
+    background:rgba(0,0,0,.06);
+    font-weight:700;
+    border-radius:5px;
+}
+
+textarea {
+    padding:12px 24px;
+    font-size:15px;
+    font-family: futura;
+    color:#000;
+    margin:0 20px 10px 0;
+    border:none;
+    background:rgba(0,0,0,.06);
+    font-weight:700;
+    border-radius:5px;
 }

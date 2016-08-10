@@ -39,7 +39,7 @@ function setupSquares() {
         //add click listeners to squares
         squares[i].addEventListener("click", function() {
             //grab color of clicke square
-            var clickedColor = this.style.background;
+            var clickedColor = this.style.backgroundColor;
             //compare color to pickedColor
             if (clickedColor === pickedColor) {
                 messageDisplay.textContent = "Correct!";

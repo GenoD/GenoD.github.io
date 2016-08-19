@@ -6,6 +6,16 @@ a {
   outline: none;
 }
 
+.sectionTitle {
+  font-size: 80px;
+}
+
+#truckxi {
+  font-size: 75px;
+  font-family: 'Damion', cursive;
+  color: #FFBE2B;
+}
+
 #headDiv {
     text-align: center;
     color: #fff;
